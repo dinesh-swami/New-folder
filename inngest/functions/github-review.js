@@ -69,7 +69,7 @@ export const githubPullRequestReview = inngest.createFunction(
         pull_number,
         per_page: 100,
       });
-      console.log(changesResult)
+      console.log(changesResult);
       return changesResult.map((change) => ({
         filename: change.filename,
         status: change.status,
@@ -80,6 +80,10 @@ export const githubPullRequestReview = inngest.createFunction(
         previous_filename: change.previous_filename,
       }));
     });
-    //  
+    //
+    if (chagnes.length === 0)
+      return { message: "There are no changes in this pr", skipped: true };
+
+    
   },
 );
