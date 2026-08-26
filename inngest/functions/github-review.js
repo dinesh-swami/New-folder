@@ -11,19 +11,18 @@ export const githubPullRequestReview = inngest.createFunction(
     ],
   },
   async ({ event, step }) => {
+    const { owner, repo, pull_number } = event.data;
     //S1 : fetch the pull REquest information.
     const pullRequestInfo = await step.run(
       "fetch-pull-request-information",
       async () => {
-        const { owner, repo, pull_number } = event.data;
-
         try {
           const pullRequestObject = await octokit.pulls.get({
             owner,
             repo,
             pull_number,
           });
-          
+
           return {
             id: pullRequestObject.data.id,
             title: pullRequestObject.data.title,
