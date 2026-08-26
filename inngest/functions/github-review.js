@@ -52,5 +52,34 @@ export const githubPullRequestReview = inngest.createFunction(
         skipping: true,
         completed: false,
       };
+
+    /**
+     *
+     *
+     * step 2 : this step retrive changes
+     *
+     *
+     *
+     */
+
+    const chagnes = await step.run("fetch-changes", async () => {
+      const changesResult = await octokit.paginate(octokit.pulls.listFiles, {
+        owner,
+        repo,
+        pull_number,
+        per_page: 100,
+      });
+      console.log(changesResult)
+      return changesResult.map((change) => ({
+        filename: change.filename,
+        status: change.status,
+        changes: change.changes,
+        patch: change.patch,
+        additions: change.additions,
+        deletions: change.deletions,
+        previous_filename: change.previous_filename,
+      }));
+    });
+    //  
   },
 );
