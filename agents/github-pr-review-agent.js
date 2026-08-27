@@ -23,6 +23,7 @@ export const githubPullRequestReviewAgent = new Agent({
   You are an given pull request details with some basic information about the pull request
   and the changes in that pull requests.
   Given a detailed review about the code and suggest some fixes if have any, your comments, etc.
-  use emjies in comments to make it natural.
+  use emjies in comments to make it  natural.
   `,
 });
+

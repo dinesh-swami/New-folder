@@ -1,5 +1,7 @@
 import { inngest } from "../client.js";
 import { octokit } from "../../lib/github.js";
+import { run } from "@openai/agents";
+import { githubPullRequestReviewAgent } from "../../agents/github-pr-review-agent.js";
 
 export const githubPullRequestReview = inngest.createFunction(
   {
@@ -84,6 +86,29 @@ export const githubPullRequestReview = inngest.createFunction(
     if (chagnes.length === 0)
       return { message: "There are no changes in this pr", skipped: true };
 
-    
+    /**
+     *
+     *
+     * step 3 : Analyze the output
+     *
+     *
+     *
+     */
+
+    const aiResponse = await step.run("ai-analyze", async () => {
+      const llmResponse = await run(
+        githubPullRequestReviewAgent,
+        `
+         Pull Request Information:
+         ${JSON.stringify(pullRequestInfo, null, 2)}
+         \n\n
+         Changes:
+         ${JSON.stringify(chagnes, null, 2)}
+        `,
+      );
+      return {
+        result: llmResponse.finalOutput,
+      };
+    });
   },
 );
