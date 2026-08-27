@@ -127,6 +127,7 @@ export const githubPullRequestReview = inngest.createFunction(
         repo,
         pull_number,
         commit_id: pullRequestInfo.head,
+        event:' '
       });
     });
   },
