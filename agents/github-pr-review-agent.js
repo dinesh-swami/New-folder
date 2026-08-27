@@ -17,13 +17,14 @@ export const GithubReviewAgentResultSchema = z.object({
   roast_section: z
     .string()
     .describe(
-      "in this section you have to roast the developer who has wrote this code. make a super funny joke for the developer and give him 'gali' , always use hinglish for roast " ,
+      "in this section you have to roast the developer who has wrote this code. make a super funny joke for the developer and give him 'gali' , always use hinglish for roast ",
     ),
   gali_section: z
     .string()
     .describe(
-      "in this gali_section section you have to most danger gali in hinglish give top 10 best indian gali to the developer , always use hinglish for gali " ,
+      "in this gali_section section you have to most danger gali in hinglish give top 10 best indian gali to the developer , always use hinglish for gali ",
     ),
+  event: z.enum(["APPROVE", "COMMENT", "REQUEST_CHANGES"]),
 });
 
 export const githubPullRequestReviewAgent = new Agent({

@@ -35,11 +35,10 @@ export const githubPullRequestReview = inngest.createFunction(
             diff_url: pullRequestObject.data.diff_url,
             changed_files: pullRequestObject.data.changed_files,
             commits: pullRequestObject.data.commits,
-            head: { ref: pullRequestObject.data.head.ref, sha: data.head.sha },
+            head: { ref: pullRequestObject.data.head.ref, sha: pullRequestObject.data.head.sha },
           };
         } catch (error) {
-          console.log(error);
-          return "kuch to fata";
+          return null;
         }
       },
     );
@@ -72,7 +71,6 @@ export const githubPullRequestReview = inngest.createFunction(
         pull_number,
         per_page: 100,
       });
-      console.log(changesResult);
       return changesResult.map((change) => ({
         filename: change.filename,
         status: change.status,
@@ -127,8 +125,16 @@ export const githubPullRequestReview = inngest.createFunction(
         repo,
         pull_number,
         commit_id: pullRequestInfo.head,
-        event:' '
+        event: aiResponse.result.event,
+        body: `
+        Critical Changes:
+        ${aiResponse.result.criticalFixes.join("\n")}
+
+        Suggestions:
+        ${aiResponse.result.suggestioins.join("\n")}
+        `,
       });
     });
+    console.log('Proccess has done ✅')
   },
 );
