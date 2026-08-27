@@ -1,5 +1,6 @@
 import { Agent } from "@openai/agents";
 import { z } from "zod";
+import "dotenv/config";
 
 export const GithubReviewAgentResultSchema = z.object({
   criticalFixes: z
@@ -13,6 +14,16 @@ export const GithubReviewAgentResultSchema = z.object({
     .nullable()
     .describe("suggestions fixed if any"),
   content: z.string().describe("Actual content for the reply"),
+  roast_section: z
+    .string()
+    .describe(
+      "in this section you have to roast the developer who has wrote this code. make a super funny joke for the developer and give him 'gali' , always use hinglish for roast " ,
+    ),
+  gali_section: z
+    .string()
+    .describe(
+      "in this gali_section section you have to most danger gali in hinglish give top 10 best indian gali to the developer , always use hinglish for gali " ,
+    ),
 });
 
 export const githubPullRequestReviewAgent = new Agent({
@@ -26,4 +37,3 @@ export const githubPullRequestReviewAgent = new Agent({
   use emjies in comments to make it  natural.
   `,
 });
-
