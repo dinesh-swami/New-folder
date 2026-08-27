@@ -35,6 +35,7 @@ export const githubPullRequestReview = inngest.createFunction(
             diff_url: pullRequestObject.data.diff_url,
             changed_files: pullRequestObject.data.changed_files,
             commits: pullRequestObject.data.commits,
+            head: { ref: pullRequestObject.data.head.ref, sha: data.head.sha },
           };
         } catch (error) {
           console.log(error);
@@ -119,5 +120,14 @@ export const githubPullRequestReview = inngest.createFunction(
      *
      *
      */
+
+    await step.run("post-comment", async () => {
+      const result = octokit.pulls.createReview({
+        owner,
+        repo,
+        pull_number,
+        commit_id: pullRequestInfo.head,
+      });
+    });
   },
 );
