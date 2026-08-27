@@ -35,7 +35,10 @@ export const githubPullRequestReview = inngest.createFunction(
             diff_url: pullRequestObject.data.diff_url,
             changed_files: pullRequestObject.data.changed_files,
             commits: pullRequestObject.data.commits,
-            head: { ref: pullRequestObject.data.head.ref, sha: pullRequestObject.data.head.sha },
+            head: {
+              ref: pullRequestObject.data.head.ref,
+              sha: pullRequestObject.data.head.sha,
+            },
           };
         } catch (error) {
           return null;
@@ -120,21 +123,26 @@ export const githubPullRequestReview = inngest.createFunction(
      */
 
     await step.run("post-comment", async () => {
-      const result = octokit.pulls.createReview({
+      const { criticalFixes, suggestioins, content } = aiResponse.result;
+      const sections = [content];
+
+      if (criticalFixes?.length)
+        sections.push(
+          `**Critical Changes:**\n${criticalFixes.map((fix) => `- ${fix}`).join("\n")}`,
+        );
+
+      if (suggestioins?.length)
+        sections.push(
+          `**Suggestions:**\n${suggestioins.map((suggestion) => `- ${suggestion}`).join("\n")}`,
+        );
+
+      const result = await octokit.issues.createComment({
         owner,
         repo,
-        pull_number,
-        commit_id: pullRequestInfo.head,
-        event: aiResponse.result.event,
-        body: `
-        Critical Changes:
-        ${aiResponse.result.criticalFixes.join("\n")}
-
-        Suggestions:
-        ${aiResponse.result.suggestioins.join("\n")}
-        `,
+        issue_number: pull_number,
+        body: sections.join("\n\n"),
       });
     });
-    console.log('Proccess has done ✅')
+    console.log("Proccess has done ✅");
   },
 );
