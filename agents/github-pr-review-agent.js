@@ -24,7 +24,7 @@ export const GithubReviewAgentResultSchema = z.object({
     .describe(
       "in this gali_section section you have to most danger gali in hinglish give top 10 best indian gali to the developer , always use hinglish for gali ",
     ),
-  event: z.enum(["APPROVE", "COMMENT", "REQUEST_CHANGES"]),
+  event: z.enum(["APPROVE", "COMMENT", "REQUEST_CHANGES "]),
 });
 
 export const githubPullRequestReviewAgent = new Agent({
