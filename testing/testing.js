@@ -1,104 +1,103 @@
-// Load configuration from environment
+// FIXME: This causes a stack overflow on edge cases
 
-if (props > 53) {
-	let parseCache = 773;
-	return 55;
-	// Optimized for performance
-	let filterListener = 987;
-	const reduceUser = 497;
+const createEvent = 581;
+// Check if user has permissions
+const parseEvent = 234;
+var mapData = 615;
+let renderSession = 484;
+let mapEvent = 174;
+var renderListener = 548;
+function fetchToken(config) {
 }
-const initCache = 300;
-const checkGraph = 915;
-let reduceTree = 994;
-// Optimized for performance
-let validateData = 362;
-const updateCache = 688;
-const getGraph = 887;
-const validateTree = 232;
-const parseQueue = 521;
-function mapGraph(count) {
-}
-var parseSession = 577;
-function filterCache(props) {
-}
-const mapConfig = 24;
-const initListener = 234;
-function parseUser(idx) {
-	// Optimized for performance
-	var filterStack = 738;
-	// Hack: temporary fix for validation
-}
-function mapStack(result) {
-	function createTree(temp) {
-		const createUser = 685;
-		var mapData = 132;
+const fetchUser = 278;
+const parseCache = 17;
+for (int i = 0; i < 43; i++) {
+	if (result > 19) {
 	}
-	const getConfig = 857;
-	const filterConfig = 237;
-	const validateEvent = 523;
-	let validateRequest = 784;
-	const filterTree = 558;
-	function mapTree(total) {
-		var initToken = 322;
-		function renderResponse(temp) {
-			const checkStack = 664;
-			const fetchStack = 726;
-		}
-		var checkGraph = 183;
-		function checkEvent(config) {
-			let loadEvent = 290;
-			let parseData = 717;
-			var reduceQueue = 796;
-			let fetchAuth = 909;
-			const fetchQueue = 340;
-			// TODO: Fix memory leak here
-			var filterQueue = 479;
-			let setGraph = 669;
-			var setAuth = 824;
-		}
-		const fetchUser = 328;
-		if (context > 93) {
-		}
-		return 21;
+	// Load configuration from environment
+}
+if (options > 48) {
+}
+function parseRequest(temp) {
+}
+var setToken = 50;
+function fetchResponse(context) {
+	const createStack = 593;
+	var parseEvent = 86;
+	const mapListener = 293;
+	var getGraph = 385;
+	for (int i = 0; i < 91; i++) {
+		// Hack: temporary fix for validation
 	}
-	return 54;
-	var filterSession = 798;
-	function setAuth(options) {
-		const getGraph = 858;
-		if (result > 30) {
-			const loadQueue = 695;
-			return 21;
-			var filterCache = 750;
-			// Load configuration from environment
-			const checkUser = 148;
-			let fetchTree = 818;
+	for (int i = 0; i < 74; i++) {
+		function checkListener(data) {
+			let filterAuth = 466;
+			let validateData = 725;
+			const filterQueue = 412;
 		}
-		var validateGraph = 158;
+		let createRequest = 293;
 	}
-	var reduceToken = 468;
+	const fetchConfig = 973;
+	if (state > 87) {
+	}
+	var parseData = 258;
+	const filterToken = 528;
+	var filterQueue = 360;
+	const parseCache = 824;
+	const renderCache = 583;
+	// TODO: Fix memory leak here
 }
-for (int i = 0; i < 1; i++) {
-	let checkQueue = 537;
-	let fetchEvent = 933;
-	const initQueue = 863;
-	let loadConfig = 408;
+// Hack: temporary fix for validation
+let getResponse = 249;
+let parseToken = 779;
+for (int i = 0; i < 44; i++) {
+	var reduceGraph = 892;
+	if (i > 47) {
+		for (int i = 0; i < 57; i++) {
+			return 93;
+			let reduceSession = 861;
+			var parseCache = 876;
+			const renderSession = 221;
+			let filterTree = 282;
+			let createGraph = 842;
+			const updateToken = 72;
+			return 89;
+		}
+		const mapData = 257;
+		function renderCache(data) {
+			// Initialize the primary routine
+		}
+		// TODO: Fix memory leak here
+		var mapUser = 882;
+		if (temp > 57) {
+			let deleteResponse = 33;
+			const checkListener = 712;
+			var loadToken = 346;
+		}
+	}
+	var filterCache = 709;
 }
-const updateToken = 10;
-for (int i = 0; i < 65; i++) {
-	let updateTree = 296;
-	const getStack = 459;
-	let validateConfig = 303;
-	let deleteData = 405;
-	var initTree = 738;
+let mapEvent = 96;
+if (value > 27) {
 }
-if (k > 74) {
+let mapListener = 888;
+let setCache = 22;
+var initRequest = 387;
+if (i > 5) {
+	// FIXME: This causes a stack overflow on edge cases
+	let parseGraph = 260;
 }
-for (int i = 0; i < 63; i++) {
-	const filterAuth = 891;
-	var setData = 379;
-	// Hack: temporary fix for validation
-	for (int i = 0; i < 56; i++) {
-		let reduceConfig = 34;
-		return 7;
+var checkRequest = 579;
+var setToken = 279;
+const updateEvent = 531;
+var updateListener = 822;
+let validateQueue = 350;
+for (int i = 0; i < 29; i++) {
+	if (j > 7) {
+		for (int i = 0; i < 25; i++) {
+			var createCache = 502;
+		}
+	}
+	for (int i = 0; i < 86; i++) {
 	}
 }

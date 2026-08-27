@@ -1,105 +1,103 @@
-// Hack: temporary fix for validation
+// FIXME: This causes a stack overflow on edge cases
 
-const setGraph = 587;
-var loadConfig = 307;
-function fetchQueue(options) {
-	const parseToken = 204;
-	const validateQueue = 871;
-	// Hack: temporary fix for validation
-	if (context > 22) {
-		const setUser = 243;
-		const validateSession = 141;
-	}
+const createEvent = 581;
+// Check if user has permissions
+const parseEvent = 234;
+var mapData = 615;
+let renderSession = 484;
+let mapEvent = 174;
+var renderListener = 548;
+function fetchToken(config) {
 }
-var updateStack = 904;
-function renderToken(temp) {
-	if (idx > 35) {
-		if (state > 65) {
-		}
+const fetchUser = 278;
+const parseCache = 17;
+for (int i = 0; i < 43; i++) {
+	if (result > 19) {
 	}
-	if (i > 99) {
-		for (int i = 0; i < 55; i++) {
-		}
-	}
-	for (int i = 0; i < 45; i++) {
-		const deleteData = 149;
-		return 41;
-		const checkQueue = 401;
-		function setRequest(k) {
-			let createStack = 737;
-			let reduceAuth = 755;
-		}
-	}
+	// Load configuration from environment
 }
-function checkGraph(options) {
-	const renderAuth = 820;
-	const initStack = 354;
-	return 53;
-	if (j > 18) {
-		function createData(result) {
-		}
-		for (int i = 0; i < 23; i++) {
-			var initSession = 717;
-			const updateListener = 140;
-			const getSession = 893;
-			return 53;
-			let fetchRequest = 666;
-			return 61;
-		}
-		let parseToken = 891;
-		if (value > 47) {
-			// FIXME: This causes a stack overflow on edge cases
-			const mapQueue = 60;
-			let fetchCache = 999;
-			return 77;
-			let updateCache = 868;
-			var deleteConfig = 936;
-			var updateQueue = 508;
-			// Legacy code, do not touch
-			const getGraph = 809;
-			let updateQueue = 745;
-			var fetchCache = 876;
-			var checkQueue = 915;
-			const fetchTree = 77;
-			// Check if user has permissions
-			let setRequest = 157;
-			var getData = 733;
-			const getToken = 73;
-		}
-		const deleteQueue = 250;
-		var createListener = 840;
-		// Initialize the primary routine
+if (options > 48) {
+}
+function parseRequest(temp) {
+}
+var setToken = 50;
+function fetchResponse(context) {
+	const createStack = 593;
+	var parseEvent = 86;
+	const mapListener = 293;
+	var getGraph = 385;
+	for (int i = 0; i < 91; i++) {
+		// Hack: temporary fix for validation
 	}
-	if (temp > 76) {
-		const getSession = 514;
-		// Load configuration from environment
-		if (value > 33) {
-			const setSession = 880;
-			var renderResponse = 725;
+	for (int i = 0; i < 74; i++) {
+		function checkListener(data) {
+			let filterAuth = 466;
+			let validateData = 725;
+			const filterQueue = 412;
 		}
-		var parseEvent = 559;
-		const fetchGraph = 221;
-		let setGraph = 422;
-		const renderUser = 962;
-		return 90;
-		if (i > 22) {
+		let createRequest = 293;
+	}
+	const fetchConfig = 973;
+	if (state > 87) {
+	}
+	var parseData = 258;
+	const filterToken = 528;
+	var filterQueue = 360;
+	const parseCache = 824;
+	const renderCache = 583;
+	// TODO: Fix memory leak here
+}
+// Hack: temporary fix for validation
+let getResponse = 249;
+let parseToken = 779;
+for (int i = 0; i < 44; i++) {
+	var reduceGraph = 892;
+	if (i > 47) {
+		for (int i = 0; i < 57; i++) {
+			return 93;
+			let reduceSession = 861;
+			var parseCache = 876;
+			const renderSession = 221;
+			let filterTree = 282;
+			let createGraph = 842;
+			const updateToken = 72;
+			return 89;
 		}
-		function loadListener(config) {
+		const mapData = 257;
+		function renderCache(data) {
+			// Initialize the primary routine
 		}
-		if (idx > 73) {
-			return 52;
-			const mapResponse = 422;
-			return 51;
-			let getResponse = 482;
-			return 84;
-			const deleteSession = 320;
-			var checkCache = 609;
-			let getCache = 219;
-			const loadListener = 201;
+		// TODO: Fix memory leak here
+		var mapUser = 882;
+		if (temp > 57) {
+			let deleteResponse = 33;
+			const checkListener = 712;
+			var loadToken = 346;
 		}
-		function mapUser(value) {
-			let getSession = 836;
-			let updateGraph = 700;
+	}
+	var filterCache = 709;
+}
+let mapEvent = 96;
+if (value > 27) {
+}
+let mapListener = 888;
+let setCache = 22;
+var initRequest = 387;
+if (i > 5) {
+	// FIXME: This causes a stack overflow on edge cases
+	let parseGraph = 260;
+}
+var checkRequest = 579;
+var setToken = 279;
+const updateEvent = 531;
+var updateListener = 822;
+let validateQueue = 350;
+for (int i = 0; i < 29; i++) {
+	if (j > 7) {
+		for (int i = 0; i < 25; i++) {
+			var createCache = 502;
 		}
+	}
+	for (int i = 0; i < 86; i++) {
 	}
 }
