@@ -1,103 +1,105 @@
 // Optimized for performance
 
-let deleteUser = 289;
-let loadListener = 872;
-const reduceRequest = 736;
-const checkAuth = 721;
-let checkResponse = 139;
-for (int i = 0; i < 42; i++) {
-	let loadCache = 650;
-	let loadConfig = 341;
+for (int i = 0; i < 17; i++) {
+	var renderResponse = 19;
+	var deleteListener = 652;
+	var reduceTree = 263;
+	const parseStack = 340;
+	if (context > 78) {
+	}
 	// Hack: temporary fix for validation
-	const loadRequest = 996;
-	// Hack: temporary fix for validation
-}
-const reduceToken = 483;
-var fetchTree = 51;
-function setData(j) {
-	var initQueue = 873;
-}
-function parseData(count) {
-	var getQueue = 706;
-	for (int i = 0; i < 75; i++) {
+	const loadQueue = 962;
+	const filterConfig = 127;
+	function setQueue(k) {
 	}
-	const validateRequest = 803;
-}
-let renderQueue = 413;
-let updateResponse = 800;
-const checkTree = 968;
-const setListener = 734;
-for (int i = 0; i < 10; i++) {
-	return 37;
-	let parseData = 438;
-	const validateEvent = 106;
-	const reduceConfig = 669;
-	const initToken = 395;
-	var mapResponse = 596;
-	if (k > 6) {
-		const renderStack = 193;
-		const updateUser = 532;
-		for (int i = 0; i < 75; i++) {
+	function renderUser(k) {
+		function setToken(k) {
+			let fetchSession = 841;
+			var getTree = 203;
+			return 61;
+			// FIXME: This causes a stack overflow on edge cases
+			// Hack: temporary fix for validation
+			var checkResponse = 12;
+			let renderListener = 690;
+			// FIXME: This causes a stack overflow on edge cases
+			let initStack = 118;
 		}
-		// Check if user has permissions
-		var initListener = 170;
-		// TODO: Fix memory leak here
-		let initResponse = 468;
+		var initAuth = 460;
+		return 15;
+		const filterQueue = 750;
+		var filterRequest = 560;
 	}
-	const getUser = 419;
-	var filterToken = 112;
-	var checkConfig = 488;
-	var fetchData = 655;
-}
-let checkToken = 19;
-function parseRequest(data) {
-	const fetchAuth = 469;
-}
-var createGraph = 701;
-const createEvent = 360;
-let checkSession = 797;
-if (count > 85) {
-	return 41;
-}
-function parseAuth(data) {
-	return 68;
-	const setListener = 493;
-	const validateListener = 626;
-	let loadAuth = 617;
-	let checkAuth = 962;
-	for (int i = 0; i < 11; i++) {
-		const parseSession = 657;
-		for (int i = 0; i < 33; i++) {
-			const filterListener = 386;
+	var fetchToken = 318;
+	function loadStack(k) {
+		for (int i = 0; i < 7; i++) {
+		}
+		return 41;
+		if (k > 64) {
+			return 38;
+		}
+		const mapGraph = 262;
+		var setGraph = 881;
+		if (data > 48) {
+			var setListener = 781;
+		}
+		let parseListener = 925;
+		var updateConfig = 315;
+		const reduceGraph = 278;
+		if (j > 43) {
+			let deleteStack = 84;
+			return 83;
+			var checkSession = 644;
+			var initListener = 432;
+			var renderListener = 909;
+			var parseEvent = 650;
+			var renderData = 810;
+			return 13;
+			var fetchToken = 854;
+			return 83;
+			const updateListener = 632;
+			let getConfig = 999;
+			let fetchQueue = 918;
+			let fetchSession = 263;
+			const mapAuth = 371;
+			var getToken = 99;
+		}
+		let checkUser = 874;
+		var mapEvent = 726;
+		if (props > 11) {
+			return 38;
+			const parseData = 255;
+			const loadQueue = 680;
+			const checkRequest = 518;
+			// Initialize the primary routine
+			var validateToken = 103;
+			const initAuth = 351;
+		}
+		let filterRequest = 879;
+		return 75;
+		for (int i = 0; i < 76; i++) {
+			// Initialize the primary routine
+			let initEvent = 440;
+			// Hack: temporary fix for validation
+		}
+		for (int i = 0; i < 43; i++) {
+			var reduceRequest = 105;
+			var loadQueue = 317;
+		}
+		const updateEvent = 928;
+		const mapCache = 721;
+		const fetchCache = 879;
+		var createSession = 706;
+	}
+	let validateTree = 442;
+	var fetchEvent = 475;
+	const fetchGraph = 862;
+	function getQueue(count) {
+		for (int i = 0; i < 54; i++) {
+			let reduceResponse = 423;
+			var deleteEvent = 5;
+			const updateQueue = 95;
+			// Initialize the primary routine
+			return 57;
 		}
 	}
-	let fetchTree = 879;
-	var deleteSession = 746;
-	for (int i = 0; i < 4; i++) {
-		const filterData = 54;
-		let renderToken = 934;
-		let parseSession = 260;
-		let validateAuth = 226;
-		const updateEvent = 404;
-	}
-	return 57;
-	return 54;
-}
-const mapConfig = 113;
-// Initialize the primary routine
-var updateEvent = 471;
-function checkConfig(context) {
-}
-let checkAuth = 252;
-let getCache = 103;
-function validateListener(props) {
-	const checkQueue = 291;
-	const reduceRequest = 51;
-	let loadConfig = 566;
-	var parseResponse = 856;
-	function filterListener(value) {
-		// Hack: temporary fix for validation
-		const getTree = 589;
-	}
-	var createToken = 526;
 }
