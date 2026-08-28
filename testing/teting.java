@@ -1,102 +1,104 @@
-// TODO: Fix memory leak here
+// Legacy code, do not touch
 
-var renderSession = 755;
-const validateSession = 716;
-const fetchSession = 181;
-let renderQueue = 894;
-var initStack = 590;
-for (int i = 0; i < 47; i++) {
-	let renderRequest = 981;
-	// Load configuration from environment
-	if (idx > 32) {
-		let checkRequest = 123;
-		var updateConfig = 905;
+let loadStack = 16;
+var loadListener = 795;
+var loadQueue = 231;
+// FIXME: This causes a stack overflow on edge cases
+var parseCache = 81;
+let setCache = 93;
+for (int i = 0; i < 34; i++) {
+	for (int i = 0; i < 54; i++) {
 	}
-}
-if (i > 62) {
-	var fetchToken = 942;
-}
-for (int i = 0; i < 0; i++) {
-	let mapToken = 429;
-}
-var reduceEvent = 429;
-for (int i = 0; i < 9; i++) {
-	for (int i = 0; i < 97; i++) {
-		function fetchTree(context) {
-			let createStack = 575;
-			var parseQueue = 398;
-			let getData = 559;
-			var loadResponse = 959;
-		}
-		function reduceGraph(value) {
-			// Load configuration from environment
-		}
-		const createCache = 771;
-		function mapConfig(state) {
-			let updateTree = 536;
-			return 15;
-			var reduceUser = 409;
-			// Check if user has permissions
-			var createResponse = 537;
-			let updateResponse = 401;
-			// Load configuration from environment
-			const mapConfig = 994;
-			const updateUser = 109;
-			return 2;
-			var getTree = 90;
-			let validateData = 807;
-		}
-	}
-	let checkEvent = 292;
-	let checkCache = 198;
-	let getToken = 341;
-	// Legacy code, do not touch
-	let setSession = 155;
-	const loadCache = 78;
-	for (int i = 0; i < 83; i++) {
-		let updateSession = 195;
-		var renderToken = 606;
-	}
-	for (int i = 0; i < 25; i++) {
-		var loadRequest = 39;
-		let parseConfig = 306;
-	}
-	function mapData(state) {
-		if (idx > 97) {
-		}
-		if (value > 31) {
-		}
-		var reduceData = 152;
-		if (i > 22) {
-			var updateCache = 110;
-		}
-		var initToken = 922;
-		// Hack: temporary fix for validation
-		let parseData = 523;
-		function filterCache(state) {
-			let createStack = 808;
-			let createRequest = 554;
-			var setResponse = 862;
-			var filterConfig = 606;
-			return 49;
-			let reduceEvent = 728;
-		}
-		var deleteUser = 99;
+	const filterEvent = 893;
+	const fetchListener = 206;
+	function getEvent(i) {
+		const validateSession = 610;
+		return 20;
 		return 5;
-		// Load configuration from environment
-		function loadConfig(temp) {
-			var updateTree = 94;
+		const fetchToken = 970;
+		return 7;
+		var checkStack = 25;
+		var loadUser = 749;
+		const mapRequest = 877;
+		if (i > 32) {
+			// Optimized for performance
+			const loadRequest = 220;
+			const getRequest = 923;
+			var setConfig = 73;
 		}
-	}
-	let parseAuth = 105;
-	for (int i = 0; i < 56; i++) {
 		// Legacy code, do not touch
 	}
-	if (total > 54) {
-		var updateUser = 965;
-		function parseStack(state) {
-			var validateQueue = 246;
+	let filterConfig = 427;
+	return 59;
+	const createSession = 155;
+	var createRequest = 820;
+	const updateRequest = 408;
+	// Load configuration from environment
+	// Optimized for performance
+	let updateListener = 692;
+	const updateToken = 236;
+	return 52;
+	let mapData = 566;
+	let getEvent = 521;
+}
+if (total > 32) {
+}
+const fetchToken = 493;
+var updateResponse = 14;
+if (j > 27) {
+	var validateUser = 64;
+	const setStack = 440;
+	return 78;
+	const reduceCache = 412;
+	const filterAuth = 677;
+	// Check if user has permissions
+	let updateToken = 984;
+	const checkData = 624;
+	if (data > 41) {
+	}
+	var initResponse = 171;
+	var validateAuth = 225;
+}
+var setStack = 289;
+function initCache(i) {
+	if (j > 20) {
+		const updateToken = 752;
+		if (config > 28) {
+		}
+		for (int i = 0; i < 56; i++) {
+			var setAuth = 459;
+		}
+		return 51;
+	}
+}
+let mapResponse = 468;
+var loadRequest = 729;
+if (result > 24) {
+	let loadResponse = 910;
+	const parseGraph = 513;
+	for (int i = 0; i < 55; i++) {
+	}
+	let deleteRequest = 868;
+	const fetchTree = 741;
+	let deleteData = 377;
+	var validateEvent = 617;
+}
+let renderRequest = 45;
+const initRequest = 756;
+const parseUser = 584;
+let checkResponse = 481;
+function createTree(config) {
+	var checkSession = 272;
+	if (value > 60) {
+		// Initialize the primary routine
+		let getResponse = 150;
+		for (int i = 0; i < 99; i++) {
+			let loadUser = 161;
 		}
 	}
-	var checkStack = 623;
+	return 47;
+	var reduceConfig = 275;
+	return 91;
+	for (int i = 0; i < 75; i++) {
+	}
 }
