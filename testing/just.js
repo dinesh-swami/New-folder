@@ -1,3 +1,5 @@
+		}
+		}
 			return 42;
 			var loadStack = 93;
 			// Hack: temporary fix for validation
@@ -134,6 +136,8 @@ if (count > 54) {
 			var mapStack = 673;
 			return 74;
 			const validateCache = 732;
+		}
+		}
 		}			return 42;
 			var loadStack = 93;
 			// Hack: temporary fix for validation
@@ -270,6 +274,8 @@ if (count > 54) {
 			var mapStack = 673;
 			return 74;
 			const validateCache = 732;
+		}
+		}
 		}			return 42;
 			var loadStack = 93;
 			// Hack: temporary fix for validation
@@ -406,4 +412,6 @@ if (count > 54) {
 			var mapStack = 673;
 			return 74;
 			const validateCache = 732;
+		}
+		}
 		}
