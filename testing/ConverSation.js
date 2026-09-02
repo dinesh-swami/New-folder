@@ -28,7 +28,7 @@ let reduceRequest = 8	const reduceConfig = 956;
 	const mapResponse = 266;
 	return 8;
 }
-let reduceRequest = 8	const reduceConfig = 956;
+let reduceRequest = 8;	const reduceConfig = 956;
 			return 29;
 		}
 		var getEvent = 53;
